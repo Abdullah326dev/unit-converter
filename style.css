@@ -1,0 +1,124 @@
+body{
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6,p,a{
+    padding: 0;
+    margin: 0;
+}
+.main-container {
+    height: fit-content;
+    width: 100%;
+    background: #111827;
+    color: #fff;
+}
+.conv-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 28%;
+}
+.head-box {
+    background: #6943FF;
+    padding: 2.5vw 5vw;
+}
+.head-box {
+    background: #6943FF;
+    padding-top: 2.8vw;
+    padding-bottom: 2.8vw;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.head-box h1 {
+    padding-bottom: 3vw;
+    font-size: 2vw;
+}
+
+.number-box {
+    justify-content: center;
+    margin-bottom: 8vw;
+    padding: 0;
+    width: 100%;
+    position: relative;
+}
+
+.number-box input {
+    background: transparent;
+    border: 3px solid #B295FF;
+    border-radius: 5px;
+    width: 29%;
+    height: 6vw;
+    text-align: center;
+    font-size: 4vw;
+    color: #fff;
+    font-weight: 800;
+    box-sizing: border-box;
+    line-height: 1;
+    position: absolute;
+    top: 0;
+    left: 35%;
+    font-family: sans-serif;
+    padding: 1vw;
+}
+.number-box input:focus {
+    outline: none;
+}
+button {
+    background: #fff;
+    border: none;
+    padding: 10px 35px;
+    font-size: 24px;
+    color: #3D3D3D;
+    border-radius: 5px;
+    font-weight: 500;
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+button:active{
+    background: #CCC1FF;
+}
+.content-box {
+    width: 100%;
+    background: #1F2937;
+    box-sizing: border-box;
+    padding: 3vw 2.5vw;
+}
+
+.matrix-box {
+    text-align: center;
+    background: #273549;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1vw;
+    border-radius: 10px;
+}
+
+.content-box {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 2vw;
+}
+
+.matrix-box p {
+    font-size: 17px;
+}
+
+.matrix-box h2 {
+    font-size: 24px;
+    color: #CCC1FF;
+}
+
+.warrning-box {
+    background: #E11D48;
+    width: 100%;
+    text-align: center;
+    padding: 1vw 0;
+    color: #fff;
+    display: none;
+    transition: all 0.2s ease;
+}
