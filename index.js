@@ -1,5 +1,4 @@
 const userIput = document.getElementById("number-input"); 
-let inputValidator = userIput.value.trim()
 const convertBtn = document.getElementById("convert-btn");
 const lengthEl = document.getElementById("length-result");
 const volumeEl = document.getElementById("volume-result");
@@ -46,6 +45,7 @@ function warrningValidator(){
         warrning.style.display = "none"
     }
 }
+
 // Click event
 
 convertBtn.addEventListener("click", () => {
